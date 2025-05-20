@@ -23,13 +23,6 @@ public class PersonRepository {
         // Beispieldaten erstellen mit normaler ArrayList
         personData = new ArrayList<>();
         
-        // Ursprüngliche Beispieldaten
-        personData.add(new Person("John", "Doe", 30, true));
-        personData.add(new Person("Jane", "Doe", 25, false));
-        personData.add(new Person("Mike", "Smith", 40, true));
-        personData.add(new Person("Anna", "Smith", 35, false));
-        
-        // 100 weitere Beispieldatensätze
         addExampleData();
     }
     
